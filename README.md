@@ -1,6 +1,6 @@
 # Terry Stops in Seattle: Predicting Arrests as a Result of a Terry Stop
 
-![Police](Images/final_model_results.png)
+![Police](Images/police.png)
 
 This project involves an iterative approach to building a classification model to predict arrests as a result of Terry Stops, utilizing Terry Stop data in Seattle, WA, with reports starting in 2015. The description of the data is pulled directly from https://www.seattle.gov/police/information-and-data/terry-stops and is as follows: "[The data includes] police-civilian contacts that involve the stop and limited detention of an individual (Terry stop). Under Terry v. Ohio, 392 U.S. 1 (1968), such contacts authorized under law and policy for purposes of investigating, based on an officer's reasonable suspicion, whether the individual is engaging, has engaged, or is about to engage in criminal activity.   During the course of a Terry stop, an officer may develop probable cause to effect an arrest, but probable cause is not required to make the initial stop, nor does a stop that is based on probable cause to arrest fall within the category of a Terry stop."
 
