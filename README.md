@@ -43,4 +43,6 @@ Using features selected from the Boruta algorithm and fitting our model with the
 - Reported Year
 - Reported Minute
 
+Important note: although Reported Minute and Call Type Other seem to not have any importance as a result of our model, these features do in fact impact our recall score when including them.
+
 ![FinalFeatures](Images/final_features.png)
