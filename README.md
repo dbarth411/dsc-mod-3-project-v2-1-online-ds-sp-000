@@ -43,4 +43,4 @@ Using features selected from the Boruta algorithm and fitting our model with the
 - Reported Year
 - Reported Minute
 
-![FinalFeatures](Images/final_fetures.png)
+![FinalFeatures](Images/final_features.png)
