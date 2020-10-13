@@ -33,16 +33,12 @@ The final model was built with the XGBoost algorithm, using features selected fr
 
 # Conclusion: Interpreting our Final Model
 
-Using features selected from the Boruta algorithm and fitting our model with the XGBoost algorithm with hyperparameter tuning, our model result has a recall score of 95.4% while maintaining approximately 50% accuracy overall for both train and test data. Ultimately, our goal was to focus on recall and predict the highest amount of arrests along with minimizing false negatives, while at the same time maintaining an accuracy above 50%. This result could potentially contribute to reducing the amount of unecessary Terry Stops. Further investigation could include making this a multi-classification problem and predicting whether the result of the Terry Stop was an arrest, offense report, citation/infraction, the suspect was referred for prosecution, or just field contact. Additionally, one could investigate if race and gender have a significant impact on whether a suspect is arrested or not. The final features determining our model results are below with Beat being our feature with the highest importance.
+Using features selected from the Boruta algorithm and fitting our model with the XGBoost algorithm with hyperparameter tuning, our model result has a recall score of 95.5% while maintaining approximately 50% accuracy overall for both train and test data. Ultimately, our goal was to focus on recall and predict the highest amount of arrests along with minimizing false negatives, while at the same time maintaining an accuracy above 50%. This result could potentially contribute to reducing the amount of unecessary Terry Stops. Further investigation could include making this a multi-classification problem and predicting whether the result of the Terry Stop was an arrest, offense report, citation/infraction, the suspect was referred for prosecution, or just field contact. Additionally, one could investigate if race and gender have a significant impact on whether a suspect is arrested or not. The final features determining our model results are below with Beat being our feature with the highest importance.
 
 - Beat (whether the address associated with the underlying Computer Aided Dispatch (CAD) event was reported or not)
 - Initial Call Type (whether an initial call type was reported or not)
 - Call Type_911 (call received by the communication center by dialing 911)
-- Call Type_Other (call type that was either not reported or an alternative to onview stops and 911 calls)
 - Officer YOB
 - Reported Year
-- Reported Minute
-
-Important note: although Reported Minute and Call Type Other seem to not have any importance as a result of our model, these features do in fact impact our recall score when including them.
 
 ![FinalFeatures](Images/final_features.png)
